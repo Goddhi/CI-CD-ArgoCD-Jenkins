@@ -53,7 +53,7 @@ pipeline{
       }
     }
 
-    stage(update Deployment File) {
+    stage('update Deployment File') {
       environment {
           GIT_REPO_NAME = "CI-CD-ArgoCD-Jenkins"
           GIT_USER_NAME = "goddhi"
