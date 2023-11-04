@@ -15,13 +15,13 @@ Verify changes to deoployment file and rollback changes
 ## Steps involved in this project 
 
 ### Install Sonarqube Using Docker and Docker Compose on VM1
-[link](https://blog.devops.dev/install-sonarqube-server-on-ubuntu-using-docker-compose-f7b168492649)
+[sonarqube-installation](https://blog.devops.dev/install-sonarqube-server-on-ubuntu-using-docker-compose-f7b168492649)
 
 ### Install Jenkins on VM1
-[link](https://www.jenkins.io/doc/book/installing/)
+[jenkins-installation](https://www.jenkins.io/doc/book/installing/)
 
 ### Clone this repo
-https://github.com/Goddhi/CI-CD-AgroCD-Jenkins.git
+[code-repo]https://github.com/Goddhi/CI-CD-ArgoCD-Jenkins.git
 
 ### configure the Jenkins pipeline in Jenkins
 
@@ -49,7 +49,7 @@ sudo chmod 777 /var/run/docker.sock
 ### CD implementation starts here 
 
 ## Install Minikube 
-[link](https://minikube.sigs.k8s.io/docs/start/)
+[minikube-instalation](https://minikube.sigs.k8s.io/docs/start/)
 
 ## cmd to start minikube
 `minikube start`
@@ -79,7 +79,7 @@ Default Username: admin
 
 ### Follow the necessary steps in the picture below to deploy the application into k8s cluster using ArgoCD
 
-![first image](/image1.png)
+![first image](image1.png)
 ![first image](/home/goddhi/Downloads/CI-CD-ArgoCD-Jenkins/image2.png)
 ![first image](/home/goddhi/Downloads/CI-CD-ArgoCD-Jenkins/image3.png)
 
