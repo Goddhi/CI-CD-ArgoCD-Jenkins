@@ -79,7 +79,7 @@ echo "plain-text-password" | base64 -d
 
 ### Follow the necessary steps in the picture below to deploy the application into k8s cluster using ArgoCD
 
-![first image](/home/goddhi/Downloads/CI-CD-ArgoCD-Jenkins/image1.png)
+![first image](/CI-CD-ArgoCD-Jenkins/image1.png)
 ![first image](/home/goddhi/Downloads/CI-CD-ArgoCD-Jenkins/image2.png)
 ![first image](/home/goddhi/Downloads/CI-CD-ArgoCD-Jenkins/image3.png)
 
