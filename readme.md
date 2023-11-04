@@ -15,10 +15,10 @@ Verify changes to deoployment file and rollback changes
 ## Steps involved in this project 
 
 ### Install Sonarqube Using Docker and Docker Compose on VM1
-https://blog.devops.dev/install-sonarqube-server-on-ubuntu-using-docker-compose-f7b168492649
+[link](https://blog.devops.dev/install-sonarqube-server-on-ubuntu-using-docker-compose-f7b168492649)
 
 ### Install Jenkins on VM1
-https://www.jenkins.io/doc/book/installing/
+[link](https://www.jenkins.io/doc/book/installing/)
 
 ### Clone this repo
 https://github.com/Goddhi/CI-CD-AgroCD-Jenkins.git
@@ -49,13 +49,13 @@ sudo chmod 777 /var/run/docker.sock
 ### CD implementation starts here 
 
 ## Install Minikube 
-[https://minikube.sigs.k8s.io/docs/start/]
+[link](https://minikube.sigs.k8s.io/docs/start/)
 
 ## cmd to start minikube
 `minikube start`
 
 ## Install AgroCD on Minikube K8Scluster
-[https://medium.com/@nanditasahu031/getting-started-with-argocd-b5a02353e144]
+[link](https://medium.com/@nanditasahu031/getting-started-with-argocd-b5a02353e144)
 
 
 ## Possibe Error during installation of ArgoCD 'imagepullbackoff' 
@@ -66,20 +66,20 @@ fix issue by expanding the VM disk
 kubectl port-forward --address 0.0.0.0 svc/argocd-server -n argocd 8080:443
 remember to create a service an inbound rule of port 8080
 
-`https://"public-ip":8080`
+```https://"public-ip":8080```
 
 
 ## Login
 Default Username: admin
 ### Get password using the command below
-`kubectl get secret agrocd-initial-admin-secret -n argocd -o yaml`
+```kubectl get secret agrocd-initial-admin-secret -n argocd -o yaml```
 
 ## convert the plain text password to base64 using the command below
-echo "plain-text-password" | base64 -d
+```echo "plain-text-password" | base64 -d```
 
 ### Follow the necessary steps in the picture below to deploy the application into k8s cluster using ArgoCD
 
-![first image](/CI-CD-ArgoCD-Jenkins/image1.png)
+![first image](/image1.png)
 ![first image](/home/goddhi/Downloads/CI-CD-ArgoCD-Jenkins/image2.png)
 ![first image](/home/goddhi/Downloads/CI-CD-ArgoCD-Jenkins/image3.png)
 
