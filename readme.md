@@ -21,7 +21,7 @@ Verify changes to deoployment file and rollback changes
 [jenkins-installation](https://www.jenkins.io/doc/book/installing/)
 
 ### Clone this repo
-[code-repo]https://github.com/Goddhi/CI-CD-ArgoCD-Jenkins.git
+[code-repo](https://github.com/Goddhi/CI-CD-ArgoCD-Jenkins.git)
 
 ### configure the Jenkins pipeline in Jenkins
 
@@ -80,14 +80,14 @@ Default Username: admin
 ### Follow the necessary steps in the picture below to deploy the application into k8s cluster using ArgoCD
 
 ![first image](image1.png)
-![first image](/home/goddhi/Downloads/CI-CD-ArgoCD-Jenkins/image2.png)
-![first image](/home/goddhi/Downloads/CI-CD-ArgoCD-Jenkins/image3.png)
+![first image](image2.png)
+![first image](image3.png)
 
 
 ### Verify that application has been deployed to K8s
 `kubectl get pods -n argcocd`
 
-![first image](/home/goddhi/Downloads/CI-CD-ArgoCD-Jenkins/image4.png)
+![first image](image4.png)
 
 
 
