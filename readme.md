@@ -9,7 +9,7 @@ The CI involves utilizing Jenkins to create a CI pipeline that build, test (Mave
 The CD involves Utilizing argoCD to dynamically deploy the application into kubernetes cluster
 
 ## Benefit of using the ArgoCd 
-Ability to visualize deployment issues, detect and remediate configuration drift.
+Ability to visualize deployment issues, detect and remediate configuration drift. <br>
 Verify changes to deoployment file and rollback changes
 
 ## Steps involved in this project 
@@ -54,8 +54,8 @@ sudo chmod 777 /var/run/docker.sock
 ## cmd to start minikube
 `minikube start`
 
-## Install AgroCD on Minikube K8Scluster
-[link](https://medium.com/@nanditasahu031/getting-started-with-argocd-b5a02353e144)
+## Install ArgoCD on Minikube K8S cluster
+[ArgoCD-Installation](https://medium.com/@nanditasahu031/getting-started-with-argocd-b5a02353e144)
 
 
 ## Possibe Error during installation of ArgoCD 'imagepullbackoff' 
