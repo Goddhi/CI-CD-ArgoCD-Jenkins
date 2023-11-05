@@ -66,7 +66,7 @@ fix issue by expanding the VM disk
 
 `kubectl port-forward --address 0.0.0.0 svc/argocd-server -n argocd 8080:443`
 
-**remember to create a service an inbound rule of port 8080**
+**remember to createan inbound rule of port 8080 for the service**
 
 ```https://"public-ip":8080```
 
