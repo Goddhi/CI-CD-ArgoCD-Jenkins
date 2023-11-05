@@ -63,8 +63,10 @@ This is as a result of Insufficient disk space...
 fix issue by expanding the VM disk
 
 ### Port Forward so we can Access  ArgoCD UI in the browser
-kubectl port-forward --address 0.0.0.0 svc/argocd-server -n argocd 8080:443
-remember to create a service an inbound rule of port 8080
+
+`kubectl port-forward --address 0.0.0.0 svc/argocd-server -n argocd 8080:443`
+
+**remember to create a service an inbound rule of port 8080**
 
 ```https://"public-ip":8080```
 
